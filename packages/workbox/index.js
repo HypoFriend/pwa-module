@@ -92,12 +92,6 @@ function getOptions (moduleOptions) {
     offlinePage: null,
     offlineAssets: [],
     _runtimeCaching: [
-      // Cache all _nuxt resources at runtime
-      // They are hashed by webpack so are safe to loaded by cacheFirst handler
-      {
-        urlPattern: fixUrl(publicPath + '/.*'),
-        handler: 'cacheFirst'
-      }
     ],
     runtimeCaching: []
   }
