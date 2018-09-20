@@ -1,5 +1,5 @@
 {
-  "name": "@HypoFriend/pwa",
+  "name": "@nuxtjs/pwa",
   "version": "0.0.1",
   "private": true,
   "contributors": [
