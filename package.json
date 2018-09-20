@@ -1,7 +1,7 @@
 {
-  "name": "@HypoFriend/pwa",
+  "name": "@hypofriend/pwa",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "contributors": [
     "Pooya Parsa <pooya@pi0.ir>",
     "Alexander Lichter <hello@lichter.io>",

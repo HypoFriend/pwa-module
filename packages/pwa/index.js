@@ -5,7 +5,7 @@ module.exports = function nuxtPWA (options) {
 
   return sequence(modules, module => {
     return this.requireModule({
-      src: `@HypoFriend/${module}`,
+      src: `@hypofriend/${module}`,
       options: options[module]
     })
   })
