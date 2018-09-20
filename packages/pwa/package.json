@@ -1,5 +1,5 @@
 {
-  "name": "HypoFriend/pwa",
+  "name": "@HypoFriend/pwa",
   "version": "2.5.0",
   "license": "MIT",
   "main": "index.js",
@@ -11,9 +11,9 @@
     "access": "public"
   },
   "dependencies": {
-    "HypoFriend/icon": "^2.5.0",
-    "HypoFriend/manifest": "^2.4.0",
-    "HypoFriend/meta": "^2.4.0",
-    "HypoFriend/workbox": "^2.4.0"
+    "@HypoFriend/icon": "^2.5.0",
+    "@HypoFriend/manifest": "^2.4.0",
+    "@HypoFriend/meta": "^2.4.0",
+    "@HypoFriend/workbox": "^2.4.0"
   }
 }
