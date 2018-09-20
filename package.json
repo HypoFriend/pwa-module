@@ -1,11 +1,12 @@
 {
-  "name": "@nuxtjs/pwa",
-  "version": "0.0.0",
+  "name": "@HypoFriend/pwa",
+  "version": "0.0.1",
   "private": true,
   "contributors": [
     "Pooya Parsa <pooya@pi0.ir>",
     "Alexander Lichter <hello@lichter.io>",
-    "Jonas Galvez <jonasgalvez@gmail.com>"
+    "Jonas Galvez <jonasgalvez@gmail.com>",
+    "Pavel Jurasek <pavel@hypofriend.de>"
   ],
   "scripts": {
     "test": "npm run lint && jest",
@@ -14,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nuxt-community/pwa-module.git"
+    "url": "https://github.com/HypoFriend/pwa-module.git"
   },
   "workspaces": [
     "packages/*"
