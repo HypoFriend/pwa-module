@@ -1,6 +1,6 @@
 {
   "name": "@hypofriend/pwa",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "license": "MIT",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,6 @@
     "@hypofriend/icon": "^2.5.0",
     "@hypofriend/manifest": "^2.4.0",
     "@hypofriend/meta": "^2.4.0",
-    "@hypofriend/workbox": "2.6.2"
+    "@hypofriend/workbox": "2.6.3"
   }
 }

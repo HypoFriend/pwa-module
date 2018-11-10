@@ -109,7 +109,12 @@ function getOptions (moduleOptions) {
   if (options.offline && !options.offlinePage) {
     options.runtimeCaching.push({
       urlPattern: fixUrl(`${routerBase}/.*`),
-      handler: 'networkFirst'
+      handler: 'networkFirst',
+      strategyOptions: {
+        fetchOptions: {
+          credentials: 'include'
+        }
+      }
     })
   }
 
